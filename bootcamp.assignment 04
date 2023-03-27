@@ -1,0 +1,400 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "db3a2968",
+   "metadata": {},
+   "source": [
+    "# Q1. What exactly is []?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "51f18375",
+   "metadata": {},
+   "source": [
+    "ANS: [] is a emplty list"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "737075a4",
+   "metadata": {},
+   "source": [
+    "# Q2. In a list of values stored in a variable called spam, how would you assign the value &#39;hello&#39; as the\n",
+    "third value? (Assume [2, 4, 6, 8, 10] are in spam.)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ccb33a3c",
+   "metadata": {},
+   "source": [
+    "ANS; spam.insert(3,'hello')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "60074f61",
+   "metadata": {},
+   "source": [
+    "Let pretend the spam includes the list ['a','b','c','d'] for the next three queries."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5c7afa5e",
+   "metadata": {},
+   "source": [
+    "# Q3. What is the value of spam[int(int(3 * 2) / 11)]?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5928a93e",
+   "metadata": {},
+   "source": [
+    "ANS: 'd'"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5681418f",
+   "metadata": {},
+   "source": [
+    "# Q4. What is the value of spam[-1]?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4a604e6e",
+   "metadata": {},
+   "source": [
+    "ANS: \"d\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4106f4bb",
+   "metadata": {},
+   "source": [
+    "# Q5. What is the value of spam[:2]?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "07dc7c11",
+   "metadata": {},
+   "source": [
+    "ANS: ['a', 'b']\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d5260e8a",
+   "metadata": {},
+   "source": [
+    "Let pretend bacon has the list [3.14,'cat', 11,' cat', 'True'] for the next three questions."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "309e4040",
+   "metadata": {},
+   "source": [
+    "# Q6. What is the value of bacon.index(\"cat\")?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3df132d3",
+   "metadata": {},
+   "source": [
+    "ANS:1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ef0e3dee",
+   "metadata": {},
+   "source": [
+    "# Q7. How does bacon.append(99) change the look of the list value in bacon?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "a1387c7e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "bacon = [3.14,'cat', 11,' cat', 'True']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "81b43548",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "bacon.append(99)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "76ebd309",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[3.14, 'cat', 11, ' cat', 'True', 99, 99, 99, 99, 99]"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bacon"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2cc76f50",
+   "metadata": {},
+   "source": [
+    "# Q8. How does bacon.remove('cat') change the look of the list in bacon?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "c49453e5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[3.14, 'cat', 11, ' cat', 'True', 99, 99, 99, 99, 99]"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bacon"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "19681536",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "bacon.remove('cat')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "83110fd2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[3.14, 11, ' cat', 'True', 99, 99, 99, 99, 99]"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bacon"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "49d24d0f",
+   "metadata": {},
+   "source": [
+    "# Q9. What are the list concatenation and list replication operators?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "165811ab",
+   "metadata": {},
+   "source": [
+    "ANS: Concatination(+) = l + l1\n",
+    "     replication(*) = l * 3"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5adee6a0",
+   "metadata": {},
+   "source": [
+    "# Q10. What is difference between the list methods append() and insert()?\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "dd344ec8",
+   "metadata": {},
+   "source": [
+    "ANS: append method add the element at the end of the list\n",
+    "     insert method add the element in the list on the basis of the index given by the user."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a8b52fd7",
+   "metadata": {},
+   "source": [
+    "# 11. What are the two methods for removing items from a list?\n",
+    "ANS: remove and pop are the methods for removing items from a list."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "65142e47",
+   "metadata": {},
+   "source": [
+    "# Q12. Describe how list values and string values are identical."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fc904e78",
+   "metadata": {},
+   "source": [
+    "ANS: list Values are stored in the form of int, string, complex, tuple, list etc.\n",
+    "     String values are stored in the form of char enclosed with '' or \"\" or str()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a0fb3f6d",
+   "metadata": {},
+   "source": [
+    "# Q13. What the difference between tuples and lists?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b2ce2124",
+   "metadata": {},
+   "source": [
+    "ANS: Tuples : - Tuples are imutable collection\n",
+    "     List : List is a mutable collection "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "29c9885e",
+   "metadata": {},
+   "source": [
+    "# Q14. How do you type a tuple value that only contains the integer 42?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1d1758be",
+   "metadata": {},
+   "source": [
+    "int"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "adf06c2a",
+   "metadata": {},
+   "source": [
+    "# 15. How do you get a list value tuple form? How do you get a tuple value list form?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cae3cf6a",
+   "metadata": {},
+   "source": [
+    "ANS: by typecasting\n",
+    "     tuple(l), where l is a list\n",
+    "     list(t), where t is a tuple"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6a6c7c25",
+   "metadata": {},
+   "source": [
+    "# Q16. Variables that contain list values are not necessarily lists themselves. Instead, what do they\n",
+    "contain?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8af1b87b",
+   "metadata": {},
+   "source": [
+    "ANS: element of the list"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2d7b3c81",
+   "metadata": {},
+   "source": [
+    "# Q17. How do you distinguish between copy.copy() and copy.deepcopy()?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e71b56f0",
+   "metadata": {},
+   "source": [
+    "ANS: copy.copy() will copy the collection in different location and can be checked by using id() upto an extent.\n",
+    "    copy.deepcopy() will copy the collection recursively and only this will only applicable in case of nested list where using deep copy will store a new location."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a8010a78",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
