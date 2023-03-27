@@ -1,0 +1,75 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "2ea4dff0",
+   "metadata": {},
+   "source": [
+    "1. What are escape characters, and how do you use them?\n",
+    "ANS: Escape ----> \"\\\", for using we can use by using  r\"\\\" or \"\\\\\"\n",
+    "\n",
+    "\n",
+    "2. What do the escape characters n and t stand for?\n",
+    "ANS: n = newlines, t = horizontal tab\n",
+    "\n",
+    "3. What is the way to include backslash characters in a string?\n",
+    "ANS: r\"\\\" or \"\\\\\"\n",
+    "\n",
+    "4. The string Howl's Moving Castle&quot; is a correct value. Why isn't the single quote character in the\n",
+    "word Howl's not escaped a problem?\n",
+    "ANS: Since the string is already quated with double quated so if we want to use quotes inbetween we need to use single quotes.\n",
+    "\n",
+    "5. How do you write a string of newlines if you don't want to use the n character?\n",
+    "ANS: By using \\n character\n",
+    "\n",
+    "6. What are the values of the given expressions?\n",
+    "'Hello, world!'[1]      ANS: 'e'\n",
+    "'Hello, world!'[0:5]    ANS: 'Hello'\n",
+    "'Hello, world!'[:5]     ANS: 'Hello'\n",
+    "'Hello, world!'[3:]     ANS: 'lo, world!'\n",
+    "\n",
+    "7. What are the values of the following expressions?\n",
+    "'Hello'.upper()                 ANS: 'HELLO'\n",
+    "'Hello'.upper().isupper()       ANS: True\n",
+    "'Hello'.upper().lower()         ANS: 'hello'\n",
+    "\n",
+    "8. What are the values of the following expressions?\n",
+    "'Remember, remember, the fifth of July.'.split()\n",
+    "'-'.join('There can only one.'.split())\n",
+    "\n",
+    "ANS: ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']\n",
+    "ANS: 'There-can-only-one.'\n",
+    "\n",
+    "9. What are the methods for right-justifying, left-justifying, and centering a string?\n",
+    "ANS:\n",
+    "right-justifying : string.ljust()\n",
+    "left-justifying : string.ljust()\n",
+    "centering : string.center()\n",
+    "\n",
+    "10. What is the best way to remove whitespace characters from the start or end?\n",
+    "ANS: string.strip()"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
